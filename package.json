@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 {
     "name": "typescript-library-pranavkhapra",
     "version": "1.0.3",
@@ -26,31 +24,3 @@
       "typescript": "^4.4.2"
     }
   }
-=======
-{
-  "name": "typescript-library",
-  "version": "1.0.0",
-  "description": "a typescript library for the sort and search helper functions",
-  "main": "lib/index.js",
-  "types": "lib",
-  "scripts": {
-    "build": "tsc -p ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pranavkhapra/typescript-library.git"
-  },
-  "keywords": [
-    "typescript"
-  ],
-  "author": "pranavkhapra",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pranavkhapra/typescript-library/issues"
-  },
-  "homepage": "https://github.com/pranavkhapra/typescript-library#readme",
-  "devDependencies": {
-    "typescript": "^4.4.2"
-  }
-}
->>>>>>> e1b0ad53bcc8155c45bd341067b480302a2384d7
