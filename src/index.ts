@@ -7,3 +7,15 @@ export function search(data: any[], searchText: any) {
     });
     return users;
 }
+
+
+export const sort = (data: any[], sortByColumn: any) => {
+    data.sort((a: any, b: any) => {
+        if (a[sortByColumn] < b[sortByColumn]) return -1;
+        if (a[sortByColumn] > b[sortByColumn]) return 1;
+        return 0;
+    })
+
+    return data;
+};
+
